@@ -44,7 +44,7 @@ or if you just want to run it, easiest way is with docker:
 
 ```bash 
 docker build -t kiwi-summer-camp-app app/
-docker run -P 5000:5000 kiwi-summer-camp-app
+docker run -p 5000:5000 kiwi-summer-camp-app
 ```
 
 3. The application is listening on port 5000:
